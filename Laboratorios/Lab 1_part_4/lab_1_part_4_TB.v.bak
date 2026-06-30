@@ -1,0 +1,27 @@
+module lab_1_part4_TB;
+
+reg  [1:0] SW;
+wire [6:0] HEX0;
+
+initial
+$monitor("SW=%b -> HEX0=%b", SW, HEX0);
+
+initial
+begin
+
+#0
+    SW = 2'b00;   // N
+
+#10 SW = 2'b01;  // E
+
+#10 SW = 2'b10;  // I
+
+#10 SW = 2'b11;  // L
+
+#10 $stop;
+
+end
+
+lab_1_part4 inst0(SW, HEX0);
+
+endmodule

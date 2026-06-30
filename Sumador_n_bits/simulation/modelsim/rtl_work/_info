@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/simulation/modelsim
+vSumador_completo
+Z1 !s110 1780592725
+!i10b 1
+!s100 54zk52Cj4j`87jR1aMnNC3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iz>d[XoGbWU1S6@aIiDOOM3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1780591529
+8D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_completo.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_completo.v
+!i122 1
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1780592725.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_completo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits|D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_completo.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits}
+Z8 tCvgOpt 0
+n@sumador_completo
+vSumador_n_bits
+!s110 1780592724
+!i10b 1
+!s100 10dU7IRQ5]cMz]1ao9Bk^1
+R2
+I>dYD>Tl5:^E7HDC?cJ7<91
+R3
+R0
+w1780591641
+8D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits.v
+!i122 0
+L0 1 15
+R4
+r1
+!s85 0
+31
+!s108 1780592724.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits|D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits.v|
+!i113 1
+R6
+R7
+R8
+n@sumador_n_bits
+vSumador_n_bits_TB
+R1
+!i10b 1
+!s100 S_YUGiC<[iMW5oee7md?W0
+R2
+IFk5Y<<z4X3=E2BW`KdR3P3
+R3
+R0
+w1780592683
+8D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v
+!i122 2
+L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits|D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v|
+!i113 1
+R6
+R7
+R8
+n@sumador_n_bits_@t@b

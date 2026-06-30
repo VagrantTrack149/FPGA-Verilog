@@ -1,0 +1,22 @@
+|Lab_3_part_3
+Clk => Clk.IN1
+D => D.IN1
+Q <= D_latch:SLAVE.port2
+
+
+|Lab_3_part_3|D_latch:MASTER
+Clk => S_g.IN0
+Clk => R_g.IN0
+D => S_g.IN1
+D => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3_part_3|D_latch:SLAVE
+Clk => S_g.IN0
+Clk => R_g.IN0
+D => S_g.IN1
+D => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

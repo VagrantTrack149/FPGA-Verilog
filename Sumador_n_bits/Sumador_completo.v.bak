@@ -1,0 +1,9 @@
+module Sumador_completo(a,b,ci,co,s);
+input a,b,ci;
+output s,co;
+
+assign co= (ci&a) | (ci&b) |(a&b);
+assign s= ci^a^b;
+
+
+endmodule

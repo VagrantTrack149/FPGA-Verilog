@@ -1,0 +1,50 @@
+# Reading pref.tcl
+# do Lab3_part_1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 3_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 3_part_1/Lab_3_part_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:14:10 on Jun 26,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 3_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 3_part_1/Lab_3_part_1.v 
+# -- Compiling module part1
+# 
+# Top level modules:
+# 	part1
+# End time: 07:14:11 on Jun 26,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 3_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 3_part_1/Lab_3_part_1_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:14:11 on Jun 26,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 3_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 3_part_1/Lab_3_part_1_TB.v 
+# -- Compiling module lab_3_part_1_TB
+# 
+# Top level modules:
+# 	lab_3_part_1_TB
+# End time: 07:14:11 on Jun 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lab_3_part_1_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" lab_3_part_1_TB 
+# Start time: 07:14:11 on Jun 26,2026
+# Loading work.lab_3_part_1_TB
+# Loading work.part1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 07:16:00 on Jun 26,2026, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0

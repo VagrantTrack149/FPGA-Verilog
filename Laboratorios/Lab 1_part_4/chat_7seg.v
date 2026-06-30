@@ -1,0 +1,15 @@
+module char_7seg(C,HEX0);
+input  [1:0] C;
+output [6:0] HEX0;
+wire c1 = C[1];
+wire c0 = C[0];
+//ESCRIBE NEIL(cREO MASOMENOS)
+assign HEX0[0] = c1 | ~c0;
+assign HEX0[1] = c1 & ~c0;
+assign HEX0[2] = c1 & ~c0;
+assign HEX0[3] = ~c0;
+assign HEX0[4] = c0;
+assign HEX0[5] = c0;
+assign HEX0[6] = c1;
+
+endmodule

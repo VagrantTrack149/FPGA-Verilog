@@ -1,0 +1,24 @@
+module latchVsFlipflop(CLK,RST,D,QL,Qff);
+input CLK,RST,D;
+output reg QL,Qff;
+
+//latch
+always @(*)
+begin
+	if(!RST)
+		QL<=0;
+	else if(CLK)
+				QL<=D;
+end
+
+//flipflop tipo D
+
+always @ (negedge RST, posedge CLK)
+begin
+	if(!RST)
+		Qff<=0;
+	else
+		Qff<=D;
+end
+
+endmodule

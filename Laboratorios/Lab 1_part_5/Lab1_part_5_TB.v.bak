@@ -1,0 +1,31 @@
+module Lab1_part_5_TB;
+
+reg  [9:0] SW;
+wire [9:0] LEDR;
+wire [6:0] HEX0;
+
+initial
+$monitor("S=%b HEX0=%b",
+         SW[9:8], HEX0);
+
+initial
+begin
+
+#0
+    SW[7:6] = 2'b00; // N
+    SW[5:4] = 2'b01; // E
+    SW[3:2] = 2'b10; // I
+    SW[1:0] = 2'b11; // L
+
+#10 SW[9:8] = 2'b00;
+#10 SW[9:8] = 2'b01;
+#10 SW[9:8] = 2'b10;
+#10 SW[9:8] = 2'b11;
+
+#10 $stop;
+
+end
+
+Lab1_part_5 inst0(SW,LEDR,HEX0);
+
+endmodule

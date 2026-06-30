@@ -1,0 +1,17 @@
+module Lab_2_part_1(SW,HEX0,HEX1);
+
+input  [7:0] SW;
+output [6:0] HEX0;
+output [6:0] HEX1;
+
+char_7seg H0 (
+    .X(SW[3:0]),
+    .HEX(HEX0)
+);
+
+char_7seg H1 (
+    .X(SW[7:4]),
+    .HEX(HEX1)
+);
+
+endmodule

@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Sumador_n_bits {D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits.v}
+vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Sumador_n_bits {D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_completo.v}
+

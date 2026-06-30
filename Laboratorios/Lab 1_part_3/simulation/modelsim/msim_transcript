@@ -1,0 +1,78 @@
+# Reading pref.tcl
+# do Lab1_part_3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:18:11 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3.v 
+# -- Compiling module Lab1_part_3
+# 
+# Top level modules:
+# 	Lab1_part_3
+# End time: 18:18:12 on Jun 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux2a1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:18:12 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux2a1.v 
+# -- Compiling module mux2a1
+# 
+# Top level modules:
+# 	mux2a1
+# End time: 18:18:13 on Jun 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux4a1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:18:13 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux4a1.v 
+# -- Compiling module mux4a1
+# 
+# Top level modules:
+# 	mux4a1
+# End time: 18:18:13 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:18:13 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3_TB.v 
+# -- Compiling module Lab1_part_3_TB
+# 
+# Top level modules:
+# 	Lab1_part_3_TB
+# End time: 18:18:13 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab1_part_3_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab1_part_3_TB 
+# Start time: 18:18:13 on Jun 11,2026
+# Loading work.Lab1_part_3_TB
+# Loading work.Lab1_part_3
+# Loading work.mux4a1
+# Loading work.mux2a1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# S=xx U=00 V=01 W=10 X=11 -> M=xx
+# S=00 U=00 V=01 W=10 X=11 -> M=00
+# S=01 U=00 V=01 W=10 X=11 -> M=01
+# S=10 U=00 V=01 W=10 X=11 -> M=10
+# S=11 U=00 V=01 W=10 X=11 -> M=11
+# ** Note: $stop    : D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3_TB.v(25)
+#    Time: 90 ps  Iteration: 0  Instance: /Lab1_part_3_TB
+# Break in Module Lab1_part_3_TB at D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3_TB.v line 25
+# End time: 18:19:26 on Jun 11,2026, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0

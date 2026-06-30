@@ -1,0 +1,63 @@
+# Reading pref.tcl
+# do Sumador_n_bits_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Sumador_n_bits {D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:05:24 on Jun 04,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits" D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits.v 
+# -- Compiling module Sumador_n_bits
+# 
+# Top level modules:
+# 	Sumador_n_bits
+# End time: 11:05:24 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Sumador_n_bits {D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_completo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:05:25 on Jun 04,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits" D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_completo.v 
+# -- Compiling module Sumador_completo
+# 
+# Top level modules:
+# 	Sumador_completo
+# End time: 11:05:25 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Sumador_n_bits {D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:05:25 on Jun 04,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits" D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v 
+# -- Compiling module Sumador_n_bits_TB
+# ** Warning: D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	Sumador_n_bits_TB
+# End time: 11:05:25 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Sumador_n_bits_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Sumador_n_bits_TB 
+# Start time: 11:05:25 on Jun 04,2026
+# Loading work.Sumador_n_bits_TB
+# Loading work.Sumador_n_bits
+# Loading work.Sumador_completo
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v(22)
+#    Time: 40 ps  Iteration: 0  Instance: /Sumador_n_bits_TB
+# Break in Module Sumador_n_bits_TB at D:/Documentos/Circuitos Logicos/Prueba1/Sumador_n_bits/Sumador_n_bits_TB.v line 22
+# End time: 11:11:24 on Jun 04,2026, Elapsed time: 0:05:59
+# Errors: 0, Warnings: 0

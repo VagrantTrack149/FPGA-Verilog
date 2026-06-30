@@ -1,0 +1,64 @@
+# Reading pref.tcl
+# do Lab1_part_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_2 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2/Lab1_part_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:15:24 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2/Lab1_part_2.v 
+# -- Compiling module Lab1_part_2
+# 
+# Top level modules:
+# 	Lab1_part_2
+# End time: 18:15:25 on Jun 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_2 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2/mux2to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:15:25 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2/mux2to1.v 
+# -- Compiling module mux2to1
+# 
+# Top level modules:
+# 	mux2to1
+# End time: 18:15:25 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_2 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2/Lab1_part_2_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:15:25 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2/Lab1_part_2_TB.v 
+# -- Compiling module Lab1_part_2_TB
+# 
+# Top level modules:
+# 	Lab1_part_2_TB
+# End time: 18:15:25 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab1_part_2_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab1_part_2_TB 
+# Start time: 18:15:26 on Jun 11,2026
+# Loading work.Lab1_part_2_TB
+# Loading work.Lab1_part_2
+# Loading work.mux2to1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# x=0101,s=0,y=1010
+# x=0101,s=1,y=1010
+# ** Note: $stop    : D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2/Lab1_part_2_TB.v(15)
+#    Time: 20 ps  Iteration: 0  Instance: /Lab1_part_2_TB
+# Break in Module Lab1_part_2_TB at D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_2/Lab1_part_2_TB.v line 15
+# End time: 18:16:26 on Jun 11,2026, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 0

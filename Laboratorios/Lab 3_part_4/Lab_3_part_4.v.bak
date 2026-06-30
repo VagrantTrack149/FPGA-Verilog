@@ -1,0 +1,34 @@
+module Lab_3_part4(
+    Clk,
+    D,
+    Qa,
+    Qb,
+    Qc
+);
+
+input Clk;
+input D;
+
+output Qa;
+output Qb;
+output Qc;
+
+D_latch_behavioral L0(
+    D,
+    Clk,
+    Qa
+);
+
+D_ff_pos FF0(
+    D,
+    Clk,
+    Qb
+);
+
+D_ff_neg FF1(
+    D,
+    Clk,
+    Qc
+);
+
+endmodule

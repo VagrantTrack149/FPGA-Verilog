@@ -1,0 +1,4 @@
+module latchVsFlipflop_tb;
+reg CLK,RST,D;
+wire QL,Qff;
+

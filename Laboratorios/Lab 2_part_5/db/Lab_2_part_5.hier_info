@@ -1,0 +1,160 @@
+|Lab_2_part_5
+SW[0] => B[0].IN1
+SW[1] => B[1].IN1
+SW[2] => B[2].IN1
+SW[3] => B[3].IN1
+SW[4] => A[0].IN1
+SW[5] => A[1].IN1
+SW[6] => A[2].IN1
+SW[7] => A[3].IN1
+SW[8] => Add1.IN10
+HEX5[0] <= char_7seg:HA.HEX
+HEX5[1] <= char_7seg:HA.HEX
+HEX5[2] <= char_7seg:HA.HEX
+HEX5[3] <= char_7seg:HA.HEX
+HEX5[4] <= char_7seg:HA.HEX
+HEX5[5] <= char_7seg:HA.HEX
+HEX5[6] <= char_7seg:HA.HEX
+HEX3[0] <= char_7seg:HB.HEX
+HEX3[1] <= char_7seg:HB.HEX
+HEX3[2] <= char_7seg:HB.HEX
+HEX3[3] <= char_7seg:HB.HEX
+HEX3[4] <= char_7seg:HB.HEX
+HEX3[5] <= char_7seg:HB.HEX
+HEX3[6] <= char_7seg:HB.HEX
+HEX1[0] <= char_7seg:HS1.HEX
+HEX1[1] <= char_7seg:HS1.HEX
+HEX1[2] <= char_7seg:HS1.HEX
+HEX1[3] <= char_7seg:HS1.HEX
+HEX1[4] <= char_7seg:HS1.HEX
+HEX1[5] <= char_7seg:HS1.HEX
+HEX1[6] <= char_7seg:HS1.HEX
+HEX0[0] <= char_7seg:HS0.HEX
+HEX0[1] <= char_7seg:HS0.HEX
+HEX0[2] <= char_7seg:HS0.HEX
+HEX0[3] <= char_7seg:HS0.HEX
+HEX0[4] <= char_7seg:HS0.HEX
+HEX0[5] <= char_7seg:HS0.HEX
+HEX0[6] <= char_7seg:HS0.HEX
+
+
+|Lab_2_part_5|char_7seg:HA
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_2_part_5|char_7seg:HB
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_2_part_5|char_7seg:HS0
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_2_part_5|char_7seg:HS1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+
+

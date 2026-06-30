@@ -1,0 +1,62 @@
+module Lab_2_part_4_TB;
+
+reg  [8:0] SW;
+
+wire [9:0] LEDR;
+wire [6:0] HEX5;
+wire [6:0] HEX3;
+wire [6:0] HEX1;
+wire [6:0] HEX0;
+
+initial
+$monitor("SW=%b -> LEDR=%b HEX1=%b HEX0=%b",
+          SW, LEDR, HEX1, HEX0);
+
+initial
+begin
+
+#0
+    SW = 9'b000100010;   // 1 + 2 = 03
+
+#10 SW = 9'b001000011;  // 2 + 3 = 05
+
+#10 SW = 9'b010001010;  // 4 + 2 = 06
+
+#10 SW = 9'b010101000;  // 5 + 0 = 05
+
+#10 SW = 9'b010101001;  // 5 + 1 = 06
+
+#10 SW = 9'b010101010;  // 5 + 2 = 07
+
+#10 SW = 9'b010101100;  // 5 + 4 = 09
+
+#10 SW = 9'b010101101;  // 5 + 5 = 10
+
+#10 SW = 9'b011101000;  // 7 + 0 = 07
+
+#10 SW = 9'b011110000;  // 7 + 8 = 15
+
+#10 SW = 9'b100110000;  // 9 + 8 = 17
+
+#10 SW = 9'b100110010;  // 9 + 9 = 18
+
+#10 SW = 9'b110011001;  // 9 + 9 + cin = 19
+
+#10 SW = 9'b101000000;  // Entrada inválida (A > 9)
+
+#10 SW = 9'b000010101;  // Entrada inválida (B > 9)
+
+#10 $stop;
+
+end
+
+Lab_2_part_4 inst0(
+    SW,
+    LEDR,
+    HEX5,
+    HEX3,
+    HEX1,
+    HEX0
+);
+
+endmodule

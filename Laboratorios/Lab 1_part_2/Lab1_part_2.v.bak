@@ -1,0 +1,8 @@
+module Lab1_part_2();
+input x,y;
+input [1:0] s;
+output m;
+
+assign =(~s&x)|(s&y);
+
+endmodule;

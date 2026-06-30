@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/simulation/modelsim
+vchar_7seg
+Z1 !s110 1781223678
+!i10b 1
+!s100 VTilk;mea[?:i3Jz6S^kY1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ie?QcJAa;iDAB?W?^AGQ;K0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1781016163
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/chat_7seg.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/chat_7seg.v
+!i122 1
+L0 1 15
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1781223677.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/chat_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/chat_7seg.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4}
+Z7 tCvgOpt 0
+vlab_1_part_4
+!s110 1781223677
+!i10b 1
+!s100 <EC5>W[_Z]ok6WgDP10N53
+R2
+IIDEI05lEB<E7<dS7];BL=0
+R3
+R0
+w1781015699
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/Lab_1_part_4.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/Lab_1_part_4.v
+!i122 0
+L0 1 7
+R4
+r1
+!s85 0
+31
+!s108 1781223676.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/Lab_1_part_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/Lab_1_part_4.v|
+!i113 1
+R5
+R6
+R7
+vlab_1_part_4_TB
+R1
+!i10b 1
+!s100 SgLJdzGGEH@19o2J2lS:;0
+R2
+I5l8;g@4l8ebcjY1oOPHDV2
+R3
+R0
+w1781017007
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/lab_1_part_4_TB.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/lab_1_part_4_TB.v
+!i122 2
+L0 1 27
+R4
+r1
+!s85 0
+31
+!s108 1781223678.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/lab_1_part_4_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/lab_1_part_4_TB.v|
+!i113 1
+R5
+R6
+R7
+nlab_1_part_4_@t@b

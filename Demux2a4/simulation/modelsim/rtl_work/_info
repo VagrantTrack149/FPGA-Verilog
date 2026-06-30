@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/simulation/modelsim
+vDemux2a4
+!s110 1780508090
+!i10b 1
+!s100 k0>9Qz`nbMhTjo=o?A1WM0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhKI;TGo;DFzI5@I>Q65LJ3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1779985953
+8D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/Demux2a4.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/Demux2a4.v
+!i122 0
+L0 1 11
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1780508090.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/Demux2a4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4|D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/Demux2a4.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4}
+Z6 tCvgOpt 0
+n@demux2a4
+vDemux2a4_TB
+!s110 1780508091
+!i10b 1
+!s100 :2b@^`f<mI;Z_mdj1[`RV1
+R1
+I^oh1>Hg9]UQj8Y:dTk[fa1
+R2
+R0
+w1779986965
+8D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/Demux2a4_TB.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/Demux2a4_TB.v
+!i122 1
+L0 1 23
+R3
+r1
+!s85 0
+31
+!s108 1780508091.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/Demux2a4_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4|D:/Documentos/Circuitos Logicos/Prueba1/Demux2a4/Demux2a4_TB.v|
+!i113 1
+R4
+R5
+R6
+n@demux2a4_@t@b

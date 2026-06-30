@@ -1,0 +1,26 @@
+|Lab_3_part_4
+Clk => Clk.IN3
+D => D.IN3
+Qa <= D_latch_behavioral:L0.port2
+Qb <= D_ff_pos:FF0.port2
+Qc <= D_ff_neg:FF1.port2
+
+
+|Lab_3_part_4|D_latch_behavioral:L0
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3_part_4|D_ff_pos:FF0
+D => Q~reg0.DATAIN
+Clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_3_part_4|D_ff_neg:FF1
+D => Q~reg0.DATAIN
+Clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

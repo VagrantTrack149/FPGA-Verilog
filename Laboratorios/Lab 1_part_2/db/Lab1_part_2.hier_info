@@ -1,0 +1,48 @@
+|Lab1_part_2
+X[0] => X[0].IN1
+X[1] => X[1].IN1
+X[2] => X[2].IN1
+X[3] => X[3].IN1
+Y[0] => Y[0].IN1
+Y[1] => Y[1].IN1
+Y[2] => Y[2].IN1
+Y[3] => Y[3].IN1
+s => s.IN4
+M[0] << mux2to1:inst0.port3
+M[1] << mux2to1:inst1.port3
+M[2] << mux2to1:inst2.port3
+M[3] << mux2to1:inst3.port3
+
+
+|Lab1_part_2|mux2to1:inst0
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1_part_2|mux2to1:inst1
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1_part_2|mux2to1:inst2
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1_part_2|mux2to1:inst3
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

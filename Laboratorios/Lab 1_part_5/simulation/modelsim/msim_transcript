@@ -1,0 +1,105 @@
+# Reading pref.tcl
+# do Lab_1_part_5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_4 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/chat_7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:24:39 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_4/chat_7seg.v 
+# -- Compiling module char_7seg
+# 
+# Top level modules:
+# 	char_7seg
+# End time: 18:24:39 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux4a1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:24:40 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux4a1.v 
+# -- Compiling module mux4a1
+# 
+# Top level modules:
+# 	mux4a1
+# End time: 18:24:40 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux2a1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:24:40 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux2a1.v 
+# -- Compiling module mux2a1
+# 
+# Top level modules:
+# 	mux2a1
+# End time: 18:24:40 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:24:41 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3.v 
+# -- Compiling module Lab1_part_3
+# 
+# Top level modules:
+# 	Lab1_part_3
+# End time: 18:24:41 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_5 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab_1_part_5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:24:41 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab_1_part_5.v 
+# -- Compiling module Lab_1_part_5
+# 
+# Top level modules:
+# 	Lab_1_part_5
+# End time: 18:24:41 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 1_part_5 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab1_part_5_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:24:41 on Jun 11,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab1_part_5_TB.v 
+# -- Compiling module Lab1_part_5_TB
+# 
+# Top level modules:
+# 	Lab1_part_5_TB
+# End time: 18:24:41 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab1_part_5_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab1_part_5_TB 
+# Start time: 18:24:41 on Jun 11,2026
+# Loading work.Lab1_part_5_TB
+# Loading work.Lab_1_part_5
+# Loading work.Lab1_part_3
+# Loading work.mux4a1
+# Loading work.mux2a1
+# Loading work.char_7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst0'.  Expected 6, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab1_part_5_TB/inst0 File: D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab1_part_5_TB.v Line: 28
+# ** Warning: (vsim-3722) D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab1_part_5_TB.v(28): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab1_part_5_TB.v(28): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab1_part_5_TB.v(28): [TFMPC] - Missing connection for port 'HEX3'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# S=xx HEX0=xxxxxxx
+# S=00 HEX0=0001001
+# S=01 HEX0=0110000
+# S=10 HEX0=1001111
+# S=11 HEX0=1110001
+# ** Note: $stop    : D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab1_part_5_TB.v(24)
+#    Time: 50 ps  Iteration: 0  Instance: /Lab1_part_5_TB
+# Break in Module Lab1_part_5_TB at D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_5/Lab1_part_5_TB.v line 24
+# End time: 18:27:58 on Jun 11,2026, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 4

@@ -1,0 +1,33 @@
+`timescale 1ns/1ps
+
+module Lab2_part1_TB;
+
+reg [7:0] SW;
+
+wire [6:0] HEX0;
+wire [6:0] HEX1;
+
+Lab2_part1 DUT(
+    .SW(SW),
+    .HEX0(HEX0),
+    .HEX1(HEX1)
+);
+
+integer i;
+
+initial
+begin
+
+    for(i = 0; i < 100; i = i + 1)
+    begin
+        SW[7:4] = i / 10;
+        SW[3:0] = i % 10;
+        #10;
+    end
+
+    #20;
+    $finish;
+
+end
+
+endmodule

@@ -1,0 +1,21 @@
+module Lab1_part_2_TB;
+reg X[3:0], Y[3:0];
+reg s;
+wire m[3:0];
+
+initial
+$monitor ("x=%b,s=%b,y=%b",x,s,y);
+initial
+begin
+
+#0 x[0]=1; x[1]=0; x[2]=1; x[3]=0;
+	y[0]=0; y[1]=1; y[2]=0; y[3]=1;
+	s=0;
+#10
+	s=1;
+#10 $stop;
+
+end
+
+Lab1_part_2 inst0(X,Y,s,m);
+endmodule

@@ -1,0 +1,76 @@
+# Reading pref.tcl
+# do Lab_2_part_1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/char_7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:03:02 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/char_7seg.v 
+# -- Compiling module char_7seg
+# 
+# Top level modules:
+# 	char_7seg
+# End time: 17:03:02 on Jun 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/Lab_2_part_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:03:03 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/Lab_2_part_1.v 
+# -- Compiling module Lab_2_part_1
+# 
+# Top level modules:
+# 	Lab_2_part_1
+# End time: 17:03:03 on Jun 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/Lab2_part1_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:03:03 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/Lab2_part1_TB.v 
+# -- Compiling module Lab_2_part_1_TB
+# 
+# Top level modules:
+# 	Lab_2_part_1_TB
+# End time: 17:03:03 on Jun 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab_2_part_1_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab_2_part_1_TB 
+# Start time: 17:03:03 on Jun 18,2026
+# Loading work.Lab_2_part_1_TB
+# Loading work.Lab_2_part_1
+# Loading work.char_7seg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# SW=00000000 -> HEX1=1000000 HEX0=1000000
+# SW=00000001 -> HEX1=1000000 HEX0=1111001
+# SW=00000010 -> HEX1=1000000 HEX0=0100100
+# SW=00000011 -> HEX1=1000000 HEX0=0110000
+# SW=00000100 -> HEX1=1000000 HEX0=0011001
+# SW=00000101 -> HEX1=1000000 HEX0=0010010
+# SW=00000110 -> HEX1=1000000 HEX0=0000010
+# SW=00000111 -> HEX1=1000000 HEX0=1111000
+# SW=00001000 -> HEX1=1000000 HEX0=0000000
+# SW=00001001 -> HEX1=1000000 HEX0=0011000
+# SW=00010000 -> HEX1=1111001 HEX0=1000000
+# SW=00100001 -> HEX1=0100100 HEX0=1111001
+# SW=01000011 -> HEX1=0011001 HEX0=0110000
+# SW=10011001 -> HEX1=0011000 HEX0=0011000
+# ** Note: $stop    : D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/Lab2_part1_TB.v(44)
+#    Time: 140 ps  Iteration: 0  Instance: /Lab_2_part_1_TB
+# Break in Module Lab_2_part_1_TB at D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/Lab2_part1_TB.v line 44
+# End time: 17:16:34 on Jun 18,2026, Elapsed time: 0:13:31
+# Errors: 0, Warnings: 0

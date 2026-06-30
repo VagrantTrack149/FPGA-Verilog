@@ -1,0 +1,7 @@
+module Mux4a1 (a,b,c,d,s,y);
+input a,b,c,d;
+input [1:0] s;
+output y;
+
+assign y=(~s[1] & ~s[0] & a) | (~s[1] & s[0] & b) | (s[1] & ~s[0] & c) | (s[1] & s[0] & d);
+endmodule

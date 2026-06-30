@@ -1,0 +1,109 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/simulation/modelsim
+vLab1_part_3
+!s110 1781223492
+!i10b 1
+!s100 [;2oL@m?A@G0=:co4A];b3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXf2g1bL6h36j76jW3K07Y0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1780511064
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3.v
+!i122 0
+L0 1 13
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1781223491.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3}
+Z6 tCvgOpt 0
+n@lab1_part_3
+vLab1_part_3_TB
+Z7 !s110 1781223493
+!i10b 1
+!s100 dVVZAo`lYXN=WY11f`m_L1
+R1
+IiNbkd@Mzz<:3gkOA1W=8>3
+R2
+R0
+w1780511001
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3_TB.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3_TB.v
+!i122 3
+L0 1 30
+R3
+r1
+!s85 0
+31
+Z8 !s108 1781223493.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/Lab1_part_3_TB.v|
+!i113 1
+R4
+R5
+R6
+n@lab1_part_3_@t@b
+vmux2a1
+R7
+!i10b 1
+!s100 ;6DRcClXTi<FLDD^O[PM@1
+R1
+IAST=ZHoN5K@QSDC:VGSnY1
+R2
+R0
+w1780508450
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux2a1.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux2a1.v
+!i122 1
+L0 1 8
+R3
+r1
+!s85 0
+31
+!s108 1781223492.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux2a1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux2a1.v|
+!i113 1
+R4
+R5
+R6
+vmux4a1
+R7
+!i10b 1
+!s100 he:B^VSG^DJoEJUBY;^JY3
+R1
+IaNJ2m3ANOc<2T]KL3PP_^2
+R2
+R0
+w1780511077
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux4a1.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux4a1.v
+!i122 2
+L0 1 16
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux4a1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 1_part_3/mux4a1.v|
+!i113 1
+R4
+R5
+R6

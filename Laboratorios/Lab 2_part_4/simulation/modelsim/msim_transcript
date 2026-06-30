@@ -1,0 +1,110 @@
+# Reading pref.tcl
+# do Lab_2_part_4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/char_7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:21 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/char_7seg.v 
+# -- Compiling module char_7seg
+# 
+# Top level modules:
+# 	char_7seg
+# End time: 17:34:21 on Jun 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_3/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:22 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_3" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_3/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 17:34:22 on Jun 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_4 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/Lab_2_part_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:22 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/Lab_2_part_4.v 
+# -- Compiling module Lab_2_part_4
+# 
+# Top level modules:
+# 	Lab_2_part_4
+# End time: 17:34:22 on Jun 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_4 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/over15_fix.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:22 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/over15_fix.v 
+# -- Compiling module over15_fix
+# 
+# Top level modules:
+# 	over15_fix
+# End time: 17:34:23 on Jun 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_4 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/mux4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:23 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/mux4bit.v 
+# -- Compiling module mux4bit
+# 
+# Top level modules:
+# 	mux4bit
+# End time: 17:34:23 on Jun 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_4 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/Lab_2_part_4_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:23 on Jun 18,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4" D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/Lab_2_part_4_TB.v 
+# -- Compiling module Lab_2_part_4_TB
+# 
+# Top level modules:
+# 	Lab_2_part_4_TB
+# End time: 17:34:23 on Jun 18,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab_2_part_4_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab_2_part_4_TB 
+# Start time: 17:34:23 on Jun 18,2026
+# Loading work.Lab_2_part_4_TB
+# Loading work.Lab_2_part_4
+# Loading work.full_adder
+# Loading work.mux4bit
+# Loading work.over15_fix
+# Loading work.char_7seg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# SW=000100010 -> LEDR=0zzzz00100 HEX1=1000000 HEX0=0011001
+# SW=001000011 -> LEDR=0zzzz00111 HEX1=1000000 HEX0=1111000
+# SW=010001010 -> LEDR=1zzzz10010 HEX1=1111001 HEX0=0000000
+# SW=010101000 -> LEDR=1zzzz10010 HEX1=1111001 HEX0=0000000
+# SW=010101001 -> LEDR=1zzzz10011 HEX1=1111001 HEX0=0011000
+# SW=010101010 -> LEDR=1zzzz10100 HEX1=1111001 HEX0=0000010
+# SW=010101100 -> LEDR=1zzzz10110 HEX1=1111001 HEX0=0000000
+# SW=010101101 -> LEDR=1zzzz10111 HEX1=1111001 HEX0=0000000
+# SW=011101000 -> LEDR=1zzzz10110 HEX1=1111001 HEX0=0000000
+# SW=011110000 -> LEDR=1zzzz01111 HEX1=1111001 HEX0=0010010
+# SW=100110000 -> LEDR=0zzzz00100 HEX1=1000000 HEX0=0011001
+# SW=100110010 -> LEDR=0zzzz00110 HEX1=1000000 HEX0=0000010
+# SW=110011001 -> LEDR=0zzzz10011 HEX1=1111001 HEX0=0011000
+# SW=101000000 -> LEDR=0zzzz00101 HEX1=1000000 HEX0=0010010
+# SW=000010101 -> LEDR=0zzzz00110 HEX1=1000000 HEX0=0000010
+# ** Note: $stop    : D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/Lab_2_part_4_TB.v(49)
+#    Time: 150 ps  Iteration: 0  Instance: /Lab_2_part_4_TB
+# Break in Module Lab_2_part_4_TB at D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_4/Lab_2_part_4_TB.v line 49
+# End time: 17:43:56 on Jun 18,2026, Elapsed time: 0:09:33
+# Errors: 0, Warnings: 0

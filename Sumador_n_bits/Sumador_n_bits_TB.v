@@ -1,0 +1,28 @@
+module Sumador_n_bits_TB;
+reg [3:0] A,B;
+reg CI;
+wire CO;
+wire [3:0] S;
+
+initial
+
+begin
+#0 A=4'b0010; 
+	B=4'b0010; 
+	CI=1'b0;
+#10 A=4'b1010; 
+	B=4'b0111; 
+	CI=1'b0; 
+#10 A=4'b1010; 
+	B=4'b0111; 
+	CI=1'b1;
+#10 A=4'b0001; 
+	B=4'b01111; 
+	CI=1'b0;
+#10 $stop;
+	
+end
+
+Sumador_n_bits TB0 (A,B,CI,CO,S);
+
+endmodule

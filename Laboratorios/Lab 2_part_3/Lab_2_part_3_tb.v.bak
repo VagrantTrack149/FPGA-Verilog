@@ -1,0 +1,41 @@
+module Lab_2_part_3_TB;
+
+reg  [8:0] SW;
+wire [9:0] LEDR;
+
+initial
+$monitor("SW=%b -> LEDR=%b",
+          SW, LEDR);
+
+initial
+begin
+
+#0
+    SW = 9'b000000000;   // 0 + 0 + cin=0
+
+#10 SW = 9'b000010001;  // 1 + 1
+
+#10 SW = 9'b000100011;  // 2 + 3
+
+#10 SW = 9'b001010100;  // 5 + 4
+
+#10 SW = 9'b010101010;  // 10 + 10
+
+#10 SW = 9'b011110001;  // 15 + 1
+
+#10 SW = 9'b111100000;  // 15 + 0
+
+#10 SW = 9'b111111110;  // 15 + 14
+
+#10 SW = 9'b111111111;  // 15 + 15 + cin
+
+#10 $stop;
+
+end
+
+Lab_2_part_3 inst0(
+    SW,
+    LEDR
+);
+
+endmodule

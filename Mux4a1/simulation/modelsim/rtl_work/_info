@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/Circuitos Logicos/Prueba1/Mux4a1/simulation/modelsim
+vMux4a1
+!s110 1779753528
+!i10b 1
+!s100 [@FDPVFo>2=kS:f<i2M2[0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+Ikan_1A[G28=AV_Lka;hi62
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1779730819
+8D:/Documentos/Circuitos Logicos/Prueba1/Mux4a1/mux4a1.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Mux4a1/mux4a1.v
+!i122 0
+L0 1 7
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1779753528.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Mux4a1/mux4a1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Mux4a1|D:/Documentos/Circuitos Logicos/Prueba1/Mux4a1/mux4a1.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Mux4a1}
+tCvgOpt 0
+n@mux4a1

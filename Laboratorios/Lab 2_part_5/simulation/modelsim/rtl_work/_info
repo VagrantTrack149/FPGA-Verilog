@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/simulation/modelsim
+vchar_7seg
+!s110 1781826295
+!i10b 1
+!s100 a:VcR32FgjAo>K:]EHo_02
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVBcTdXR3SlJPnzi^A^FG@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1781707886
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/char_7seg.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/char_7seg.v
+!i122 0
+L0 1 36
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1781826295.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/char_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1/char_7seg.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_1}
+Z5 tCvgOpt 0
+vLab_2_part_5
+Z6 !s110 1781826296
+!i10b 1
+!s100 <h_2X6YdCUV6_`7N>@KUO2
+R1
+Inoeg6_Dd7JTHa=7I8o5eC2
+R2
+R0
+w1781709667
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/Lab_2_part_5.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/Lab_2_part_5.v
+!i122 1
+Z7 L0 1 58
+R3
+r1
+!s85 0
+31
+Z8 !s108 1781826296.000000
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/Lab_2_part_5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/Lab_2_part_5.v|
+!i113 1
+R4
+Z9 !s92 -vlog01compat -work work {+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5}
+R5
+n@lab_2_part_5
+vLab_2_part_5_TB
+R6
+!i10b 1
+!s100 9CXEdT@T7e3GIdS?ml66T1
+R1
+IckkfjFm3C<>X`[CCBA5T>2
+R2
+R0
+w1781661487
+8D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/Lab_2_part_5_TB.v
+FD:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/Lab_2_part_5_TB.v
+!i122 2
+R7
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/Lab_2_part_5_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5|D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_5/Lab_2_part_5_TB.v|
+!i113 1
+R4
+R9
+R5
+n@lab_2_part_5_@t@b

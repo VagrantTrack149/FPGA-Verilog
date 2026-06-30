@@ -1,0 +1,11 @@
+|latchVsFlipflop
+CLK => Qff~reg0.CLK
+CLK => QL$latch.LATCH_ENABLE
+RST => QL$latch.ACLR
+RST => Qff~reg0.ACLR
+D => Qff~reg0.DATAIN
+D => QL$latch.DATAIN
+QL << QL$latch.DB_MAX_OUTPUT_PORT_TYPE
+Qff << Qff~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

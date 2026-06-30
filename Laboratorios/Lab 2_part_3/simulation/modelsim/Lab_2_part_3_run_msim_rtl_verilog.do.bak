@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_3/Lab_2_part_3.v}
+vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Tareas/Lab\ 2_part_3 {D:/Documentos/Circuitos Logicos/Prueba1/Tareas/Lab 2_part_3/full_adder.v}
+
