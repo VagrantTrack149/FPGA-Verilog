@@ -1,0 +1,118 @@
+|Lab_4_part_1
+KEY[0] => _.IN1
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+HEX0[0] <= char_7seg:H0.port1
+HEX0[1] <= char_7seg:H0.port1
+HEX0[2] <= char_7seg:H0.port1
+HEX0[3] <= char_7seg:H0.port1
+HEX0[4] <= char_7seg:H0.port1
+HEX0[5] <= char_7seg:H0.port1
+HEX0[6] <= char_7seg:H0.port1
+HEX1[0] <= char_7seg:H1.port1
+HEX1[1] <= char_7seg:H1.port1
+HEX1[2] <= char_7seg:H1.port1
+HEX1[3] <= char_7seg:H1.port1
+HEX1[4] <= char_7seg:H1.port1
+HEX1[5] <= char_7seg:H1.port1
+HEX1[6] <= char_7seg:H1.port1
+
+
+|Lab_4_part_1|counter8:C0
+Clock => Clock.IN8
+Enable => T[0].IN1
+Clear => Clear.IN8
+Q[0] <= T_ff:FF0.port3
+Q[1] <= T_ff:FF1.port3
+Q[2] <= T_ff:FF2.port3
+Q[3] <= T_ff:FF3.port3
+Q[4] <= T_ff:FF4.port3
+Q[5] <= T_ff:FF5.port3
+Q[6] <= T_ff:FF6.port3
+Q[7] <= T_ff:FF7.port3
+
+
+|Lab_4_part_1|counter8:C0|T_ff:FF0
+T => Q.OUTPUTSELECT
+Clock => Q~reg0.CLK
+Clear => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|counter8:C0|T_ff:FF1
+T => Q.OUTPUTSELECT
+Clock => Q~reg0.CLK
+Clear => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|counter8:C0|T_ff:FF2
+T => Q.OUTPUTSELECT
+Clock => Q~reg0.CLK
+Clear => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|counter8:C0|T_ff:FF3
+T => Q.OUTPUTSELECT
+Clock => Q~reg0.CLK
+Clear => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|counter8:C0|T_ff:FF4
+T => Q.OUTPUTSELECT
+Clock => Q~reg0.CLK
+Clear => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|counter8:C0|T_ff:FF5
+T => Q.OUTPUTSELECT
+Clock => Q~reg0.CLK
+Clear => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|counter8:C0|T_ff:FF6
+T => Q.OUTPUTSELECT
+Clock => Q~reg0.CLK
+Clear => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|counter8:C0|T_ff:FF7
+T => Q.OUTPUTSELECT
+Clock => Q~reg0.CLK
+Clear => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|char_7seg:H0
+X[0] => Decoder0.IN3
+X[1] => Decoder0.IN2
+X[2] => Decoder0.IN1
+X[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab_4_part_1|char_7seg:H1
+X[0] => Decoder0.IN3
+X[1] => Decoder0.IN2
+X[2] => Decoder0.IN1
+X[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

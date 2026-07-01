@@ -1,0 +1,14 @@
+module T_ff(T,Clock,Clear,Q);
+input T;
+input Clock;
+input Clear;
+output reg Q;
+always @(posedge Clock)
+begin
+    if (!Clear)
+        Q <= 1'b0;
+    else if (T)
+        Q <= ~Q;
+end
+
+endmodule
