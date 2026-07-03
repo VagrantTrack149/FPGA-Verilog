@@ -3,6 +3,7 @@
 module Lab_4_part_4_tb;
 
 reg CLOCK_50;
+reg [0:0] KEY;
 
 wire [6:0] HEX0;
 wire [6:0] HEX1;
@@ -17,14 +18,22 @@ end
 
 initial
 begin
+    KEY = 0;      // Reset activo
+    #40;
+    KEY = 1;      // Libera reset
 
     #800;
 
     $stop;
-
 end
 
-
-Lab_4_part_4 prueba(.CLOCK_50(CLOCK_50),.HEX0(HEX0), .HEX1(HEX1),.HEX2(HEX2), .HEX3(HEX3));
+Lab_4_part_4 prueba(
+    .CLOCK_50(CLOCK_50),
+    .KEY(KEY),
+    .HEX0(HEX0),
+    .HEX1(HEX1),
+    .HEX2(HEX2),
+    .HEX3(HEX3)
+);
 
 endmodule

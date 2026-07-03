@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab_4_part_1
-Wed Jul 01 09:10:53 2026
+Thu Jul 02 20:13:05 2026
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Jul 01 09:10:53 2026       ;
+; Analysis & Synthesis Status     ; Successful - Thu Jul 02 20:13:05 2026       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; Lab_4_part_1                                ;
 ; Top-level Entity Name           ; Lab_4_part_1                                ;
@@ -278,7 +278,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Jul 01 09:10:40 2026
+    Info: Processing started: Thu Jul 02 20:12:52 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab_4_part_1 -c Lab_4_part_1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -289,7 +289,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file t_ff.v
 Info (12021): Found 1 design units, including 1 entities, in source file counter8.v
     Info (12023): Found entity 1: counter8 File: D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/counter8.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file lab_4_part_1.v
-    Info (12023): Found entity 1: Lab_4_part_1 File: D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1.v Line: 1
+    Info (12023): Found entity 1: Lab_4_part_1 File: D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file lab_4_part_1_tb.v
     Info (12023): Found entity 1: Lab_4_part_1_tb File: D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1_tb.v Line: 3
 Info (12127): Elaborating entity "Lab_4_part_1" for the top level hierarchy
@@ -304,8 +304,8 @@ Info (21057): Implemented 40 device resources after synthesis - the final resour
     Info (21059): Implemented 14 output pins
     Info (21061): Implemented 23 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4859 megabytes
-    Info: Processing ended: Wed Jul 01 09:10:53 2026
+    Info: Peak virtual memory: 4860 megabytes
+    Info: Processing ended: Thu Jul 02 20:13:05 2026
     Info: Elapsed time: 00:00:13
     Info: Total CPU time (on all processors): 00:00:28
 

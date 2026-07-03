@@ -1,5 +1,5 @@
 |Lab_4_part_1
-KEY[0] => _.IN1
+CLOCK => _.IN1
 SW[0] => SW[0].IN1
 SW[1] => SW[1].IN1
 HEX0[0] <= char_7seg:H0.port1

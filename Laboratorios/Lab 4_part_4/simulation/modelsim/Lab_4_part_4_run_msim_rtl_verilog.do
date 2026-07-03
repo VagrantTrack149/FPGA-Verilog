@@ -5,7 +5,7 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 3_part_5 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 3_part_5/char_7seg.v}
+vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 1_part_4 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 1_part_4/chat_7seg.v}
 vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 4_part_4 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_4/Lab_4_part_4.v}
 
 vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 4_part_4 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_4/Lab_4_part_4_tb.v}

@@ -12,59 +12,59 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 3_part_5 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 3_part_5/char_7seg.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:39:08 on Jun 30,2026
+# Start time: 20:13:43 on Jul 02,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 3_part_5" D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 3_part_5/char_7seg.v 
 # -- Compiling module char_7seg
 # 
 # Top level modules:
 # 	char_7seg
-# End time: 20:39:08 on Jun 30,2026, Elapsed time: 0:00:00
+# End time: 20:13:43 on Jul 02,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 4_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/T_ff.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:39:08 on Jun 30,2026
+# Start time: 20:13:44 on Jul 02,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/T_ff.v 
 # -- Compiling module T_ff
 # 
 # Top level modules:
 # 	T_ff
-# End time: 20:39:09 on Jun 30,2026, Elapsed time: 0:00:01
+# End time: 20:13:44 on Jul 02,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 4_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/counter8.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:39:09 on Jun 30,2026
+# Start time: 20:13:44 on Jul 02,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/counter8.v 
 # -- Compiling module counter8
 # 
 # Top level modules:
 # 	counter8
-# End time: 20:39:09 on Jun 30,2026, Elapsed time: 0:00:00
+# End time: 20:13:44 on Jul 02,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 4_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:39:09 on Jun 30,2026
+# Start time: 20:13:44 on Jul 02,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1.v 
 # -- Compiling module Lab_4_part_1
 # 
 # Top level modules:
 # 	Lab_4_part_1
-# End time: 20:39:09 on Jun 30,2026, Elapsed time: 0:00:00
+# End time: 20:13:44 on Jul 02,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/Documentos/Circuitos\ Logicos/Prueba1/Laboratorios/Lab\ 4_part_1 {D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:39:09 on Jun 30,2026
+# Start time: 20:13:44 on Jul 02,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1" D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1_tb.v 
 # -- Compiling module Lab_4_part_1_tb
 # 
 # Top level modules:
 # 	Lab_4_part_1_tb
-# End time: 20:39:09 on Jun 30,2026, Elapsed time: 0:00:00
+# End time: 20:13:44 on Jul 02,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab_4_part_1_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab_4_part_1_tb 
-# Start time: 20:39:09 on Jun 30,2026
+# Start time: 20:13:44 on Jul 02,2026
 # Loading work.Lab_4_part_1_tb
 # Loading work.Lab_4_part_1
 # Loading work.counter8
@@ -80,5 +80,5 @@
 # ** Note: $stop    : D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1_tb.v(38)
 #    Time: 980 ns  Iteration: 0  Instance: /Lab_4_part_1_tb
 # Break in Module Lab_4_part_1_tb at D:/Documentos/Circuitos Logicos/Prueba1/Laboratorios/Lab 4_part_1/Lab_4_part_1_tb.v line 38
-# End time: 20:39:27 on Jun 30,2026, Elapsed time: 0:00:18
+# End time: 20:19:39 on Jul 02,2026, Elapsed time: 0:05:55
 # Errors: 0, Warnings: 0
